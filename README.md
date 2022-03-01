@@ -10,6 +10,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 Download the repository from 
 ```
+https://github.com/MaksatbekDev/DrfApp
+```
 
 ### Installing
 
@@ -17,6 +19,10 @@ Activate the virtual environment
 ```
 python -m venv venv
 venv\Scripts\activate
+```
+Then install requirements.txt
+```
+pip install requirements.txt
 ```
 
 ## Running
@@ -28,13 +34,16 @@ python manage.py runserver
 ```
 Follow the links:
 ```
-http://127.0.0.1:8000/courses/
+http://127.0.0.1:8000/api/v1/courselist ,api/v2/categorylist ,api/v3/branchlist/ ,api/v4/contactlist/
 ```
+## Documentation
+
+[Apiary]
 
 ## Built With
 
 + Django 3.10
-+ Django rest-framework 3.13.1 
++ Django rest-framework 3.13.1
 
 ## Authors
 
