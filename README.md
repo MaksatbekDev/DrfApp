@@ -29,7 +29,7 @@ pip install requirements.txt
 
 To start the API enter the commands
 ```
-cd courses
+cd drfsite
 python manage.py runserver
 ```
 Follow the links:
